@@ -1,0 +1,133 @@
+        body{
+            background-color: #e9ebee;
+        }
+
+        h1 {
+            font-family: 'Helvetica Neue';
+            font-size: 80px;
+            font-style: normal;
+            font-variant: small-caps;
+            font-weight: bold;
+            line-height: 36px;
+        }
+        h3 {
+            font-family: 'Helvetica Neue';
+            font-size: 27px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 36px;
+        }
+        p {
+            font-family: 'Helvetica Neue';
+            font-size: 22px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 36px;
+        }
+        blockquote {
+            font-family: 'Helvetica Neue';
+            font-size: 27px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 36px;
+        }
+        pre {
+            font-family: 'Helvetica Neue';
+            font-size: 18px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 36px;
+        }
+
+        .main-container {
+            width: 70%;
+            height: 95%;
+            background-color: #FDFDFD;
+
+            position: absolute;
+            top:10px;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+
+            margin: auto;
+            text-align: center;
+        }
+
+        /*==================================================
+         * Shadow
+         * ===============================================*/
+        .shadow
+        {
+            <!--position:relative;-->
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+               -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+        .shadow:before, .shadow:after
+        {
+            content:"";
+            position:absolute;
+            z-index:-1;
+            -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+            -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+            box-shadow:0 0 20px rgba(0,0,0,0.8);
+            top:10px;
+            bottom:10px;
+            left:0;
+            right:0;
+            -moz-border-radius:100px / 10px;
+            border-radius:100px / 10px;
+        }
+        .shadow:after
+        {
+            right:10px;
+            left:auto;
+            -webkit-transform:skew(8deg) rotate(3deg);
+               -moz-transform:skew(8deg) rotate(3deg);
+                -ms-transform:skew(8deg) rotate(3deg);
+                 -o-transform:skew(8deg) rotate(3deg);
+                    transform:skew(8deg) rotate(3deg);
+        }
+
+        .head{
+            position: relative;
+            top: 7%;
+            display: block;
+        }
+
+        .intro{
+            display: block;
+            position: relative;
+            margin-top: 5px;
+            top: 7%;
+        }
+
+        .picture{
+            position: relative;
+            display: block;
+            top: 5%;
+            border-top: 1px solid #e1e8ed;
+            border-bottom: 1px solid #e1e8ed;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 640px;
+            max-height: 480px;
+            border-radius: 6px;
+            background: #fff;
+            border-left: 1px solid #e1e8ed;
+            border-right: 1px solid #e1e8ed;
+            background-clip: padding-box;
+        }
+
+        .body{
+            display: block;
+            position: relative;
+            top: 5%;
+        }
