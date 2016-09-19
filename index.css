@@ -25,11 +25,11 @@
             min-width: 480px;
             min-height: 320px;
             background: #fff;
-            border-top: 1px solid #e1e8ed;
-            border-bottom: 1px solid #e1e8ed;
+            border-top: 1px solid #dae1e6;
+            border-bottom: 1px solid #dae1e6;
             border-radius: 6px;
-            border-left: 1px solid #e1e8ed;
-            border-right: 1px solid #e1e8ed;
+            border-left: 1px solid #dae1e6;
+            border-right: 1px solid #dae1e6;
             background-clip: padding-box;
         }
 
